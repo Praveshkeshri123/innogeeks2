@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  #ball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #toggleBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
